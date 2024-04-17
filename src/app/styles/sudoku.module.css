@@ -1,0 +1,44 @@
+/* sudoku.module.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .sudoku-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    grid-template-rows: repeat(9, 40px);
+    gap: 1px;
+  }
+  
+  .sudoku-row {
+    display: flex;
+  }
+  
+  .sudoku-cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .sudoku-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .sudoku-button:hover {
+    background-color: #0056b3;
+  }
+  
